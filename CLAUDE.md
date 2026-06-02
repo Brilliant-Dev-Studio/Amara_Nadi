@@ -25,3 +25,16 @@ No test runner is configured.
 - TypeScript path alias: `@/*` → repo root.
 - Styling: **Tailwind CSS v4** via `@tailwindcss/postcss` (see `postcss.config.mjs`); no `tailwind.config.*` — configuration lives in CSS.
 - Fonts via `next/font` (Geist).
+
+## Design Principles (non-negotiable)
+
+Every page and component in this project MUST follow these. They define the product's identity — treat them as hard requirements, not suggestions.
+
+- **Personality first.** The site should feel like it was made by humans with a point of view — opinionated typography, distinctive copy, unexpected details. Avoid generic "default template" looks.
+- **Tactile maximalism.** Dense, layered, material-feeling UI. Use texture, depth, shadows, overlapping elements, grain/noise, borders, and rich surfaces. More is more — but composed, not chaotic.
+- **Magazine / editorial layout.** Think print art-direction: bold headlines, strong typographic hierarchy, asymmetric and broken grids, pull quotes, generous and intentional whitespace, captions, and editorial rhythm. Not a boxy SaaS landing page.
+- **Motion with intention.** Every animation must earn its place — reveal hierarchy, guide attention, or reward interaction. Use scroll-driven reveals, staggered entrances, hover/cursor feedback, and smooth transitions. No motion for motion's sake; respect `prefers-reduced-motion`.
+- **Awwwards-caliber craft.** Aim for award-winning polish: micro-interactions, considered easing curves, cohesive color/type systems, and obsessive attention to detail.
+- **Fully responsive.** Must look intentional and excellent on mobile, tablet, and laptop/desktop. Design the layout for each breakpoint — don't just let desktop shrink.
+
+When implementing UI, prefer CSS-first/native approaches that fit Tailwind v4 and React 19; check `context7` for animation libraries before adding heavy dependencies.
