@@ -19,16 +19,16 @@ const OTHER_FIRMS = [
 
 const WITH_US = [
   {
-    title: "Tailored Consulting",
-    desc: "Custom strategies designed to fit your unique business needs and goals.",
+    title: "Meeting the Demand for Reliable Raw Hair in the Global Wig Industry",
+    desc: "Meeting the needs of international wig and extension manufacturers who frequently face challenges with chemically over-processed hair, by supplying reliable, precisely graded, natural raw materials.",
   },
   {
-    title: "Dedicated Support",
-    desc: "Expert guidance and hands-on assistance at every stage of your journey.",
+    title: "Value-Added Processing: Ensuring Reliability and Premium Quality",
+    desc: "Ensuring reliability by transforming hair from its raw state into premium, high-value products through systematic cleaning and precise grading in our daily operations.",
   },
   {
-    title: "Transparent Pricing",
-    desc: "No surprises — clear pricing structure so you pay only for what you need.",
+    title: "Expert Leadership and Innovation: Guaranteeing Quality and Design",
+    desc: "Providing a full guarantee on both quality and design, driven by the leadership of experienced technicians who deeply understand the entire process from raw materials to finished products, combined with our dedication to producing innovative designs that align with modern trends.",
   },
 ];
 
@@ -71,17 +71,19 @@ function Item({
       }`}
       style={{ transitionDelay: `${index * 90}ms` }}
     >
-      <div className="flex items-center gap-3">
+      <div className="flex items-start gap-3">
         {highlight ? (
-          <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-brand-blue text-white">
+          <span className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full bg-brand-blue text-white">
             <Check className="h-3.5 w-3.5" />
           </span>
         ) : (
-          <span className="grid h-6 w-6 shrink-0 place-items-center text-foreground/35">
+          <span className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center text-foreground/35">
             <Check className="h-5 w-5" />
           </span>
         )}
-        <h4 className="text-lg font-semibold text-foreground">{title}</h4>
+        <h4 className="text-lg font-semibold leading-snug text-foreground">
+          {title}
+        </h4>
       </div>
       <p className="mt-2 pl-9 text-sm leading-relaxed text-foreground/55">
         {desc}
@@ -122,7 +124,7 @@ export default function WhyChooseUs() {
         Why choose us
       </div>
       <h2 className="mx-auto mt-5 max-w-3xl text-center font-serif text-[30px] font-light sm:text-[48px] leading-[1.12] tracking-[-0.005em]">
-        Expert consulting tailored to your business success
+        Dedicated Procurement and Supply Chain for Business Success
       </h2>
 
       {/* Comparison card */}

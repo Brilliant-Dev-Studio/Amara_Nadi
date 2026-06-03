@@ -177,9 +177,8 @@ export default function Hero() {
             className="hero-rise mt-5 max-w-md text-[16px] leading-relaxed text-brand-diamond-ice/75"
             style={{ animationDelay: "0.25s" }}
           >
-            Connecting Myanmar&rsquo;s finest raw and processed human hair with
-            global manufacturers. We supply high-quality, ethically sourced hair
-            with reliable export solutions tailored to your business needs.
+            To produce the highest quality finished products domestically with
+            the most reliable service, and export them to international markets.
           </p>
 
           {/* CTAs */}

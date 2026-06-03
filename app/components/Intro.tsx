@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import logo from "@/public/logo.png";
+import logo from "@/public/logowhite.png";
 
 /**
  * Awwwards-style intro: masked wordmark reveal on a blue panel, then a

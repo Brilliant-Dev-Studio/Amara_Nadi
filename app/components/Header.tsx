@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import logo from "@/public/logo.png";
+import logo from "@/public/logowhite.png";
 
 const LINKS = [
   { label: "Why Us", href: "#why" },

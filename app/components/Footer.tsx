@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/public/logo.png";
+import logo from "@/public/logowhite.png";
 import Reveal from "./Reveal";
 
 const MENU = [
@@ -17,9 +17,17 @@ const SOCIAL = [
 ];
 
 const CONTACT = [
-  { label: "hello@amaranadi.com", href: "mailto:hello@amaranadi.com" },
-  { label: "+95 9 123 456 789", href: "tel:+959123456789" },
-  { label: "Yangon, Myanmar", href: null },
+  {
+    label: "amaranadi.group@gmail.com",
+    href: "mailto:amaranadi.group@gmail.com",
+  },
+  { label: "+95 9 651 451 549", href: "tel:+959651451549" },
+  { label: "+95 9 885 333 339", href: "tel:+959885333339" },
+  {
+    label:
+      "No.(2), Kamar Kyi Road, New Yangon Quarter (Thuwana), Thingyankyun Township, Yangon, Myanmar.",
+    href: null,
+  },
 ];
 
 const linkClass =
