@@ -26,9 +26,31 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.amaranadi.com"),
   title: "Amara Nadi Co., Ltd — Bulk Human Hair Export",
   description:
     "Amara Nadi connects Myanmar's finest raw and processed human hair with global manufacturers — ethically sourced, quality-graded, and reliably exported.",
+  openGraph: {
+    title: "Amara Nadi Co., Ltd — Bulk Human Hair Export",
+    description:
+      "Connecting Myanmar's finest raw and processed human hair with global manufacturers — ethically sourced and reliably exported.",
+    type: "website",
+    images: [
+      {
+        url: "/socialMediaSharing.png",
+        width: 3008,
+        height: 1730,
+        alt: "Amara Nadi Co., Ltd",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Amara Nadi Co., Ltd — Bulk Human Hair Export",
+    description:
+      "Connecting Myanmar's finest raw and processed human hair with global manufacturers.",
+    images: ["/socialMediaSharing.png"],
+  },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
