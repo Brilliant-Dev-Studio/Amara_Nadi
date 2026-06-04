@@ -4,16 +4,16 @@ import { useEffect, useRef, useState } from "react";
 
 const OTHER_FIRMS = [
   {
-    title: "Generic Strategies",
-    desc: "One-size-fits-all solutions that lack personalized insights and flexibility.",
+    title: "Chemically Over-Processed Supplies",
+    desc: "Unreliable raw materials that suffer from excessive chemical treatment, leading to poor quality and high rejection rates from wig manufacturers.",
   },
   {
-    title: "Limited Guidance",
-    desc: "Clients are left to navigate complex challenges with minimal expert support.",
+    title: "Unprocessed & Inconsistent Quality",
+    desc: "Selling hair in its raw, uncleaned state without strict grading, resulting in inconsistent product batches and higher production waste.",
   },
   {
-    title: "Hidden Fees",
-    desc: "Unexpected costs and additional charges that inflate your total investment.",
+    title: "Lack of Technical Expertise & Innovation",
+    desc: "Operated without skilled technicians, resulting in outdated designs and no quality guarantee from raw materials to finished products.",
   },
 ];
 

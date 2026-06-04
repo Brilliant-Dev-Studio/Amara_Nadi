@@ -1,84 +1,41 @@
-import type { ReactNode } from "react";
-
-/* Placeholder partner logos — swap with real brand logos. */
-const PARTNERS: { name: string; icon: ReactNode }[] = [
-  {
-    name: "Northwind",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
-        <circle cx="8" cy="12" r="6" />
-        <circle cx="16" cy="12" r="6" fillOpacity="0.5" />
-      </svg>
-    ),
-  },
-  {
-    name: "Vertex",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-6 w-6">
-        <circle cx="12" cy="12" r="9" />
-        <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" />
-      </svg>
-    ),
-  },
-  {
-    name: "Quanta",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
-        <rect x="3" y="3" width="7" height="7" rx="1.5" />
-        <rect x="14" y="3" width="7" height="7" rx="3.5" />
-        <rect x="3" y="14" width="7" height="7" rx="3.5" />
-        <rect x="14" y="14" width="7" height="7" rx="1.5" />
-      </svg>
-    ),
-  },
-  {
-    name: "Lumen",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
-        <path d="M12 2 22 12 12 22 2 12z" />
-      </svg>
-    ),
-  },
-  {
-    name: "Cascade",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" className="h-6 w-6">
-        <path d="M5 8c4 0 4 8 8 8M11 8c4 0 4 8 8 8" />
-      </svg>
-    ),
-  },
-  {
-    name: "Beacon",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
-        <path d="M12 2l2.4 5.6L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.6-1.4z" />
-      </svg>
-    ),
-  },
+/* What we have — editorial marquee of Amara Nadi's real offerings. */
+const OFFERINGS = [
+  "Raw Human Hair",
+  "Remy Quality",
+  "Single & Double Drawn",
+  "Natural Textures",
+  "Precision Grading",
+  "Bulk Capacity",
+  "Ethically Sourced",
+  "Global Export",
 ];
 
-function LogoItem({ name, icon }: { name: string; icon: ReactNode }) {
+function Star() {
   return (
-    <span className="flex shrink-0 items-center gap-2.5 text-foreground/45 transition-colors duration-300 hover:text-foreground/80">
-      {icon}
-      <span className="text-2xl font-bold tracking-tight">{name}</span>
-    </span>
+    <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 shrink-0 text-brand-red" aria-hidden>
+      <path d="m12 2 2.4 6.9L21 11l-6.6 2.1L12 20l-2.4-6.9L3 11l6.6-2.1z" />
+    </svg>
   );
 }
 
 export default function Partners() {
   // Duplicate the set so the -50% translate loops seamlessly.
-  const row = [...PARTNERS, ...PARTNERS];
+  const row = [...OFFERINGS, ...OFFERINGS];
   return (
     <section className="pb-8 pt-8 sm:pb-10 sm:pt-10">
       <p className="text-center text-sm font-semibold text-foreground/80">
-        We&rsquo;ve partnered with:
+        What we bring to the table:
       </p>
 
       <div className="marquee mt-10 overflow-hidden">
-        <div className="marquee-track flex w-max items-center gap-14 pr-14 sm:gap-20 sm:pr-20">
-          {row.map((p, i) => (
-            <LogoItem key={i} name={p.name} icon={p.icon} />
+        <div className="marquee-track flex w-max items-center gap-8 pr-8 sm:gap-12 sm:pr-12">
+          {row.map((item, i) => (
+            <span key={i} className="flex shrink-0 items-center gap-8 sm:gap-12">
+              <span className="text-2xl font-bold tracking-tight text-foreground/55 transition-colors duration-300 hover:text-foreground/90 sm:text-3xl">
+                {item}
+              </span>
+              <Star />
+            </span>
           ))}
         </div>
       </div>

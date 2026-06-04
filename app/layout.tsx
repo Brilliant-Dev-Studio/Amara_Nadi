@@ -37,9 +37,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/socialMediaSharing.png",
-        width: 3008,
-        height: 1730,
+        url: "/newSocialmediasharing.png",
+        width: 3020,
+        height: 1726,
         alt: "Amara Nadi Co., Ltd",
       },
     ],
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "Amara Nadi Co., Ltd — Bulk Human Hair Export",
     description:
       "Connecting Myanmar's finest raw and processed human hair with global manufacturers.",
-    images: ["/socialMediaSharing.png"],
+    images: ["/newSocialmediasharing.png"],
   },
   icons: {
     icon: [

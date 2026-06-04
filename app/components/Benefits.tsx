@@ -16,17 +16,8 @@ const iconBase = {
 
 const BENEFITS: { title: string; desc: string; icon: ReactNode }[] = [
   {
-    title: "Premium Quality",
-    desc: "Every bundle is inspected and graded to meet strict international standards.",
-    icon: (
-      <svg {...iconBase}>
-        <path d="m12 3 2.2 6.3L21 11l-6.8 1.7L12 19l-2.2-6.3L3 11l6.8-1.7z" />
-      </svg>
-    ),
-  },
-  {
-    title: "Ethically Sourced",
-    desc: "Hair collected responsibly from trusted partners across Myanmar.",
+    title: "Naturally Reliable Hair",
+    desc: "Precisely graded natural raw hair — free from the chemical over-processing that plagues unreliable suppliers.",
     icon: (
       <svg {...iconBase}>
         <path d="M11 20A7 7 0 0 1 4 13C4 8 9 4 20 4c0 9-4 16-9 16Z" />
@@ -35,18 +26,17 @@ const BENEFITS: { title: string; desc: string; icon: ReactNode }[] = [
     ),
   },
   {
-    title: "Global Export",
-    desc: "Reliable worldwide shipping with full customs documentation handled.",
+    title: "Strict, Consistent Grading",
+    desc: "Every batch sorted by length, texture, and quality — no raw, uncleaned guesswork, just dependable consistency.",
     icon: (
       <svg {...iconBase}>
-        <circle cx="12" cy="12" r="9" />
-        <path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18" />
+        <path d="M4 7h16M4 12h10M4 17h6" />
       </svg>
     ),
   },
   {
-    title: "Custom Orders",
-    desc: "Tailored lengths, textures, and processing to match your specifications.",
+    title: "Value-Added Processing",
+    desc: "Systematic cleaning that transforms raw hair into premium, high-value product, batch after batch.",
     icon: (
       <svg {...iconBase}>
         <circle cx="6" cy="6" r="3" />
@@ -56,23 +46,31 @@ const BENEFITS: { title: string; desc: string; icon: ReactNode }[] = [
     ),
   },
   {
-    title: "Bulk Capacity",
-    desc: "Large-volume supply with consistent quality, batch after batch.",
+    title: "Expert Technician Leadership",
+    desc: "Led by experienced technicians who master every step — from raw material to finished product.",
     icon: (
       <svg {...iconBase}>
-        <path d="M21 8 12 3 3 8v8l9 5 9-5z" />
-        <path d="m3 8 9 5 9-5M12 13v8" />
+        <circle cx="12" cy="9" r="5" />
+        <path d="M9 13.5 7 21l5-3 5 3-2-7.5" />
       </svg>
     ),
   },
   {
-    title: "Dedicated Support",
-    desc: "A responsive team guiding you from first inquiry through to delivery.",
+    title: "Innovative, On-Trend Design",
+    desc: "Designs that keep pace with modern trends — never the outdated styles other firms settle for.",
     icon: (
       <svg {...iconBase}>
-        <path d="M4 14v-2a8 8 0 0 1 16 0v2" />
-        <rect x="2.5" y="14" width="4" height="6" rx="1.5" />
-        <rect x="17.5" y="14" width="4" height="6" rx="1.5" />
+        <path d="m12 3 2.2 6.3L21 11l-6.8 1.7L12 19l-2.2-6.3L3 11l6.8-1.7z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Full Quality & Design Guarantee",
+    desc: "A complete guarantee on both quality and design, from sourcing right through to delivery.",
+    icon: (
+      <svg {...iconBase}>
+        <path d="M12 3 5 6v5c0 4.5 3 7.6 7 9 4-1.4 7-4.5 7-9V6z" />
+        <path d="m9 12 2 2 4-4" />
       </svg>
     ),
   },

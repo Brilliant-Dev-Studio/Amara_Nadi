@@ -24,7 +24,7 @@ export default function ContactSection() {
             Contact us
           </div>
           <h2 className="mt-5 max-w-md font-serif text-[clamp(2rem,4.5vw,3rem)] font-light leading-[1.1] tracking-[-0.005em]">
-            Get in touch with our experts team
+            Let&rsquo;s get your next shipment moving
           </h2>
 
           {sent ? (

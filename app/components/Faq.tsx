@@ -5,28 +5,28 @@ import Reveal from "./Reveal";
 
 const FAQS = [
   {
-    q: "What types of hair do you supply?",
-    a: "We supply raw and processed human hair in a range of textures, lengths, and grades — from single-donor bulk hair to washed and sorted bundles ready for manufacturing.",
+    q: "Is your hair chemically over-processed like other suppliers?",
+    a: "No. We supply reliable, precisely graded natural raw hair — free from the excessive chemical treatment that causes poor quality and high rejection rates from wig manufacturers.",
   },
   {
-    q: "What is your minimum order quantity?",
-    a: "MOQs depend on the grade and processing required. We work with both wholesale buyers and large manufacturers — send us your specifications for a tailored quote.",
+    q: "How do you keep quality consistent across batches?",
+    a: "Every batch is sorted by length, texture, and quality under strict grading controls. There's no raw, uncleaned guesswork — just dependable consistency, batch after batch.",
   },
   {
-    q: "How do you ensure quality and ethical sourcing?",
-    a: "All hair is ethically collected from trusted partners across Myanmar, then inspected, washed, and graded under strict quality controls before export.",
+    q: "Do you sell raw hair, or is it processed first?",
+    a: "We add value before it ships. Through systematic daily cleaning and precise grading, we transform hair from its raw state into premium, high-value product ready for manufacturing.",
   },
   {
-    q: "Which countries do you export to?",
-    a: "We export worldwide with full documentation and customs handling, regularly shipping to manufacturers across Asia, Europe, and North America.",
+    q: "Who oversees your quality and design?",
+    a: "Experienced technicians lead the entire process — from raw material to finished product. That hands-on expertise is what unreliable, technician-less suppliers simply can't match.",
   },
   {
-    q: "What are your shipping and lead times?",
-    a: "Lead times vary by order size and processing. We offer reliable air and sea freight with tracking, and confirm an exact timeline when you place your order.",
+    q: "Can you match modern styles and trends?",
+    a: "Yes. We're dedicated to innovative designs that keep pace with modern trends, rather than the outdated styles other firms settle for.",
   },
   {
-    q: "How do I place an order or get started?",
-    a: "Reach out through our contact details with your requirements. Our team will guide you from sample approval through to bulk shipment.",
+    q: "What guarantee do I get when I order?",
+    a: "A full guarantee on both quality and design — backed end to end, from sourcing right through to delivery. Send us your specifications and our team will guide you from sample to bulk shipment.",
   },
 ];
 
