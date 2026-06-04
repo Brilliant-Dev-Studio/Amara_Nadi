@@ -3,9 +3,9 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import heroImg from "@/public/hero.jpg";
-import heroImg2 from "@/public/hero2.jpg";
-import heroImg3 from "@/public/hero3.jpg";
+import heroImg from "@/public/Gemini_Generated_Image_vwbvyavwbvyavwbv.png";
+import heroImg2 from "@/public/Gemini_Generated_Image_w878e9w878e9w878.png";
+import heroImg3 from "@/public/Gemini_Generated_Image_wynzi0wynzi0wynz.png";
 
 const HERO_SLIDES = [heroImg, heroImg2, heroImg3];
 
@@ -161,7 +161,7 @@ export default function Hero() {
             className="hero-rise mt-6 font-serif text-[clamp(2rem,4.4vw,3.3rem)] font-medium leading-[1.08] tracking-[-0.005em]"
             style={{ animationDelay: "0.15s" }}
           >
-            Amara Nadi Co., Ltd — Your Leading Source for Bulk Hair Export.
+            Elevating Myanmar&rsquo;s natural resources onto the global stage
           </h1>
 
           {/* Burmese company name */}
@@ -174,11 +174,13 @@ export default function Hero() {
 
           {/* Subtext */}
           <p
-            className="hero-rise mt-5 max-w-md text-[16px] leading-relaxed text-brand-diamond-ice/75"
+            className="hero-rise mt-5 max-w-lg text-[16px] leading-relaxed text-brand-diamond-ice/75"
             style={{ animationDelay: "0.25s" }}
           >
-            To produce the highest quality finished products domestically with
-            the most reliable service, and export them to international markets.
+            A warm welcome from Amara Nadi Co., Ltd &mdash; a premier leader in
+            Myanmar&rsquo;s human hair industry, supplying high-quality
+            semi-finished raw materials directly to finished-product
+            manufacturing plants worldwide.
           </p>
 
           {/* CTAs */}

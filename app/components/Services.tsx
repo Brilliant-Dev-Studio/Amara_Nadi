@@ -3,9 +3,9 @@
 import { useState } from "react";
 import Image, { type StaticImageData } from "next/image";
 import { motion } from "framer-motion";
-import sourcing from "@/public/services/sourcing.jpg";
-import processing from "@/public/services/processing.jpg";
-import exportImg from "@/public/services/export.jpg";
+import sourcing from "@/public/IMG_2290.jpg";
+import processing from "@/public/IMG_2291.jpg";
+import exportImg from "@/public/Gemini_Generated_Image_olrvuaolrvuaolrv.png";
 import Reveal from "./Reveal";
 
 type Service = {
@@ -16,18 +16,18 @@ type Service = {
 
 const SERVICES: Service[] = [
   {
-    title: "Raw Hair Sourcing",
-    desc: "Ethically collected raw human hair sourced from trusted partners across Myanmar.",
+    title: "Premium Bulk Hair Sourcing & Distribution",
+    desc: "We efficiently source, systematically grade, and strategically distribute premium bulk hair from domestic networks and rigorously vetted international suppliers.",
     img: sourcing,
   },
   {
-    title: "Processing & Grading",
-    desc: "Washed, sorted, and graded by length, texture, and quality to global standards.",
+    title: "Export-Grade Semi-Finished Processing",
+    desc: "We clean, sort, and process raw hair into premium semi-finished products built to strict specifications — ready for immediate use by wig and extension manufacturers.",
     img: processing,
   },
   {
-    title: "Bulk Export & Logistics",
-    desc: "Reliable large-volume export with full documentation and customs handling.",
+    title: "Global B2B Supply Chain Solutions",
+    desc: "A reliable, long-term direct supply partner for global factories — high-volume fulfillment, customized grading, and seamless international logistics.",
     img: exportImg,
   },
 ];

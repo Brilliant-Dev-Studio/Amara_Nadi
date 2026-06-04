@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Partners from "./components/Partners";
+import About from "./components/About";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import Benefits from "./components/Benefits";
@@ -26,6 +27,7 @@ export default function Home() {
       <div className="mx-auto w-full max-w-[1230px] px-5 pt-[79px] sm:px-6">
         <Hero />
         <Partners />
+        <About />
         <WhyChooseUs />
       </div>
       <Services />

@@ -5,6 +5,7 @@ import Image from "next/image";
 import logo from "@/public/logowhite.png";
 
 const LINKS = [
+  { label: "About", href: "#about" },
   { label: "Why Us", href: "#why" },
   { label: "Services", href: "#services" },
   { label: "Benefits", href: "#benefits" },

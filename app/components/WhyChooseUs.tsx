@@ -4,31 +4,39 @@ import { useEffect, useRef, useState } from "react";
 
 const OTHER_FIRMS = [
   {
-    title: "Chemically Over-Processed Supplies",
-    desc: "Unreliable raw materials that suffer from excessive chemical treatment, leading to poor quality and high rejection rates from wig manufacturers.",
+    title: "Untraceable Sourcing",
+    desc: "Hair bought through unknown hands, with no oversight of where it came from or how it was handled.",
   },
   {
-    title: "Unprocessed & Inconsistent Quality",
-    desc: "Selling hair in its raw, uncleaned state without strict grading, resulting in inconsistent product batches and higher production waste.",
+    title: "Basic Unprocessed Hair",
+    desc: "Selling raw, uncleaned hair that still needs heavy work before it can ever enter a production line.",
   },
   {
-    title: "Lack of Technical Expertise & Innovation",
-    desc: "Operated without skilled technicians, resulting in outdated designs and no quality guarantee from raw materials to finished products.",
+    title: "Layers of Middlemen",
+    desc: "Orders routed through brokers and intermediaries that inflate costs and disrupt steady supply.",
+  },
+  {
+    title: "No Long-Term Vision",
+    desc: "Short-term selling with no investment in sustainability or the future of the industry.",
   },
 ];
 
 const WITH_US = [
   {
-    title: "Meeting the Demand for Reliable Raw Hair in the Global Wig Industry",
-    desc: "Meeting the needs of international wig and extension manufacturers who frequently face challenges with chemically over-processed hair, by supplying reliable, precisely graded, natural raw materials.",
+    title: "Direct-from-Source Quality",
+    desc: "We directly source 100% authentic human hair from trusted domestic networks and reliable international markets, keeping complete oversight and quality control over every single step.",
   },
   {
-    title: "Value-Added Processing: Ensuring Reliability and Premium Quality",
-    desc: "Ensuring reliability by transforming hair from its raw state into premium, high-value products through systematic cleaning and precise grading in our daily operations.",
+    title: "Reliable Semi-Product Manufacturing",
+    desc: "Beyond selling basic raw hair, we use proprietary modern techniques to process advanced semi-finished bulk hair that precisely matches manufacturers' rigorous international standards.",
   },
   {
-    title: "Expert Leadership and Innovation: Guaranteeing Quality and Design",
-    desc: "Providing a full guarantee on both quality and design, driven by the leadership of experienced technicians who deeply understand the entire process from raw materials to finished products, combined with our dedication to producing innovative designs that align with modern trends.",
+    title: "Global Supply Scale",
+    desc: "We're rapidly expanding direct international distribution — letting global buyers bypass brokers for a steady, uninterrupted supply of dependable products at optimized costs.",
+  },
+  {
+    title: "Visionary & Sustainable",
+    desc: "Partnering with us means aligning with an environmentally conscious company that reinvests its returns into building future green-energy infrastructure.",
   },
 ];
 

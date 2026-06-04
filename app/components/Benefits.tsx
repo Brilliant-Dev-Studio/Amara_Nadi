@@ -16,61 +16,43 @@ const iconBase = {
 
 const BENEFITS: { title: string; desc: string; icon: ReactNode }[] = [
   {
-    title: "Naturally Reliable Hair",
-    desc: "Precisely graded natural raw hair — free from the chemical over-processing that plagues unreliable suppliers.",
+    title: "Production-Ready Standards",
+    desc: "No synthetic blends or subpar quality — only 100% premium authentic human hair, ready to go straight into factory production lines.",
     icon: (
       <svg {...iconBase}>
-        <path d="M11 20A7 7 0 0 1 4 13C4 8 9 4 20 4c0 9-4 16-9 16Z" />
-        <path d="M4 20c2-4 6-7 11-8" />
+        <path d="M12 3 5 6v5c0 4.5 3 7.6 7 9 4-1.4 7-4.5 7-9V6z" />
+        <path d="m9 12 2 2 4-4" />
       </svg>
     ),
   },
   {
-    title: "Strict, Consistent Grading",
-    desc: "Every batch sorted by length, texture, and quality — no raw, uncleaned guesswork, just dependable consistency.",
+    title: "Factory-Direct Pricing",
+    desc: "By bypassing middleman brokers, clients enjoy competitive factory-direct pricing that directly maximizes their profit margins.",
     icon: (
       <svg {...iconBase}>
-        <path d="M4 7h16M4 12h10M4 17h6" />
+        <path d="M12.6 2.6A2 2 0 0 0 11.2 2H4a2 2 0 0 0-2 2v7.2a2 2 0 0 0 .6 1.4l8.7 8.7a2.4 2.4 0 0 0 3.4 0l6.6-6.6a2.4 2.4 0 0 0 0-3.4z" />
+        <circle cx="7.5" cy="7.5" r="1.25" />
       </svg>
     ),
   },
   {
-    title: "Value-Added Processing",
-    desc: "Systematic cleaning that transforms raw hair into premium, high-value product, batch after batch.",
+    title: "Guaranteed Inventory Continuity",
+    desc: "Robust domestic and international sourcing networks secure the supply chain — year-round availability with zero risk of shortages.",
+    icon: (
+      <svg {...iconBase}>
+        <path d="M21 8 12 3 3 8v8l9 5 9-5z" />
+        <path d="m3 8 9 5 9-5M12 13v8" />
+      </svg>
+    ),
+  },
+  {
+    title: "Tailored Technical Support",
+    desc: "From specific lengths and curl patterns to custom textures, our expert team processes every output to your precise specifications.",
     icon: (
       <svg {...iconBase}>
         <circle cx="6" cy="6" r="3" />
         <circle cx="6" cy="18" r="3" />
         <path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 12 12" />
-      </svg>
-    ),
-  },
-  {
-    title: "Expert Technician Leadership",
-    desc: "Led by experienced technicians who master every step — from raw material to finished product.",
-    icon: (
-      <svg {...iconBase}>
-        <circle cx="12" cy="9" r="5" />
-        <path d="M9 13.5 7 21l5-3 5 3-2-7.5" />
-      </svg>
-    ),
-  },
-  {
-    title: "Innovative, On-Trend Design",
-    desc: "Designs that keep pace with modern trends — never the outdated styles other firms settle for.",
-    icon: (
-      <svg {...iconBase}>
-        <path d="m12 3 2.2 6.3L21 11l-6.8 1.7L12 19l-2.2-6.3L3 11l6.8-1.7z" />
-      </svg>
-    ),
-  },
-  {
-    title: "Full Quality & Design Guarantee",
-    desc: "A complete guarantee on both quality and design, from sourcing right through to delivery.",
-    icon: (
-      <svg {...iconBase}>
-        <path d="M12 3 5 6v5c0 4.5 3 7.6 7 9 4-1.4 7-4.5 7-9V6z" />
-        <path d="m9 12 2 2 4-4" />
       </svg>
     ),
   },
@@ -137,11 +119,11 @@ export default function Benefits() {
         Benefits
       </div>
       <h2 className="mx-auto mt-5 max-w-3xl text-center font-serif text-[30px] font-light sm:text-[48px] leading-[1.12] tracking-[-0.005em]">
-        Key benefits that set us apart from other firms
+        Benefits your customers will feel
       </h2>
 
       {/* Grid */}
-      <div className="mx-auto mt-14 grid max-w-5xl gap-x-8 gap-y-14 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto mt-14 grid max-w-5xl gap-x-8 gap-y-14 sm:mt-16 sm:grid-cols-2 lg:grid-cols-4">
         {BENEFITS.map((b, i) => (
           <div
             key={b.title}

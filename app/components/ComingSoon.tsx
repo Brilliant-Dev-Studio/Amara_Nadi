@@ -7,14 +7,14 @@ import solarImg from "@/public/coming/solar.jpg";
 
 const ITEMS: { title: string; desc: string; img: StaticImageData }[] = [
   {
-    title: "EV Charging Stations",
-    desc: "Home and commercial EV chargers — soon available to import and export through Amara Nadi.",
-    img: evImg,
+    title: "Solar Farms",
+    desc: "High-capacity solar farms in strategic commercial and economic zones, feeding clean, reliable electricity directly into the national grid.",
+    img: solarImg,
   },
   {
-    title: "Solar Energy Systems",
-    desc: "Solar panels and complete solar solutions, coming soon to our import & export catalogue.",
-    img: solarImg,
+    title: "Solar EV Charging Stations",
+    desc: "Modern, solar-powered EV charging stations along major transit corridors and travel hubs across Myanmar, driving eco-friendly transport networks.",
+    img: evImg,
   },
 ];
 
@@ -50,11 +50,12 @@ export default function ComingSoon() {
         Coming Soon
       </div>
       <h2 className="mx-auto mt-5 max-w-3xl text-center font-serif text-[30px] font-light sm:text-[48px] leading-[1.12] tracking-[-0.005em]">
-        Clean energy solutions, coming soon
+        Harmonizing beauty and green energy
       </h2>
       <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed text-foreground/55">
-        Soon you&rsquo;ll be able to source EV chargers and complete solar
-        systems through Amara Nadi&rsquo;s import &amp; export network.
+        We believe in growth that honors our planet. Amara Nadi is expanding into
+        renewable energy &mdash; building clean infrastructure to help power
+        Myanmar&rsquo;s future.
       </p>
 
       {/* Cards */}

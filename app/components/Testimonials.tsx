@@ -7,21 +7,21 @@ import Reveal from "./Reveal";
 const REVIEWS = [
   {
     quote:
-      "Amara Nadi's hair quality is consistently excellent — every shipment meets our standards without fail.",
-    name: "Wei Chen",
-    badge: "Premium grade • Repeat buyer",
+      "Amara Nadi has completely optimized our procurement process. The quality and cleanliness of their semi-finished bulk hair are perfectly suited for factory production, helping us significantly reduce material waste.",
+    name: "International Wig Factory Manager",
+    badge: "Reduced material waste",
   },
   {
     quote:
-      "Reliable bulk supply and smooth export handling. They've become our trusted sourcing partner in Myanmar.",
-    name: "Sofia Rossi",
-    badge: "On-time delivery • 3× orders",
+      "Switching to Amara Nadi's semi-finished products has saved our hairpiece factory a tremendous amount of time and operational cost. The hair texture is exceptionally clean and remarkably strong.",
+    name: "Premium Hair Accessories Factory Owner",
+    badge: "Saved time & cost",
   },
   {
     quote:
-      "Ethically sourced, well-processed, and competitively priced — exactly what our factory needed.",
-    name: "David Müller",
-    badge: "Trusted supplier • 2-year partner",
+      "Communication is seamless and their logistics are highly dependable. Their direct international supply system makes procurement far more efficient and heavily reduces overhead for overseas buyers like us.",
+    name: "B2B Wholesale Buyer — Europe",
+    badge: "Lower overhead",
   },
 ];
 

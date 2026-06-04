@@ -5,28 +5,24 @@ import Reveal from "./Reveal";
 
 const FAQS = [
   {
-    q: "Is your hair chemically over-processed like other suppliers?",
-    a: "No. We supply reliable, precisely graded natural raw hair — free from the excessive chemical treatment that causes poor quality and high rejection rates from wig manufacturers.",
+    q: "Where does Amara Nadi primarily source its human hair?",
+    a: "To ensure rich variety and premium quality, we source bulk hair through systematic domestic collections within Myanmar, alongside direct imports from trusted international markets.",
   },
   {
-    q: "How do you keep quality consistent across batches?",
-    a: "Every batch is sorted by length, texture, and quality under strict grading controls. There's no raw, uncleaned guesswork — just dependable consistency, batch after batch.",
+    q: "To what stage do you process the bulk raw hair?",
+    a: "We process raw hair up to the factory-grade semi-finished stage — systematically cleaned, sorted, and prepared to your exact specifications, ready for direct manufacturing into wigs and extensions.",
   },
   {
-    q: "Do you sell raw hair, or is it processed first?",
-    a: "We add value before it ships. Through systematic daily cleaning and precise grading, we transform hair from its raw state into premium, high-value product ready for manufacturing.",
+    q: "How can international buyers establish a direct supply partnership?",
+    a: "As we expand our global distribution network, overseas manufacturing plants and brand owners can contact our international sales department directly by email or phone for bulk orders and long-term contracts.",
   },
   {
-    q: "Who oversees your quality and design?",
-    a: "Experienced technicians lead the entire process — from raw material to finished product. That hands-on expertise is what unreliable, technician-less suppliers simply can't match.",
+    q: "Do you sell to local brokers, or export directly overseas?",
+    a: "While we maintain reliable partnerships with international brokers who visit Myanmar, our strategic vision is focused on building direct international supply lines to export straight to global markets.",
   },
   {
-    q: "Can you match modern styles and trends?",
-    a: "Yes. We're dedicated to innovative designs that keep pace with modern trends, rather than the outdated styles other firms settle for.",
-  },
-  {
-    q: "What guarantee do I get when I order?",
-    a: "A full guarantee on both quality and design — backed end to end, from sourcing right through to delivery. Send us your specifications and our team will guide you from sample to bulk shipment.",
+    q: "When will the Solar Farm and EV Charging Station projects launch?",
+    a: "Our green-energy initiatives are in the meticulous planning and implementation phases. These landmark projects will support Myanmar's sustainable infrastructure and eco-tourism, and we'll share progress updates on our website.",
   },
 ];
 

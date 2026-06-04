@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import contactImg from "@/public/contact.jpg";
+import contactImg from "@/public/Gemini_Generated_Image_iixvumiixvumiixv.png";
 import Reveal from "./Reveal";
 
 const fieldClass =
