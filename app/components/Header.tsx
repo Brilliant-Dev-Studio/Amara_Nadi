@@ -7,7 +7,7 @@ import logo from "@/public/logowhite.png";
 const LINKS = [
   { label: "About", href: "#about" },
   { label: "Why Us", href: "#why" },
-  { label: "Services", href: "#services" },
+  { label: "Products", href: "#products" },
   { label: "Benefits", href: "#benefits" },
   { label: "Our Group", href: "#poe-poe-gold" },
   { label: "Coming Soon", href: "#coming-soon" },

@@ -3,17 +3,11 @@ import logo from "@/public/logowhite.png";
 import Reveal from "./Reveal";
 
 const MENU = [
-  { label: "Services", href: "#services" },
+  { label: "Products", href: "#products" },
   { label: "Why choose us", href: "#why" },
   { label: "Pricing", href: "#pricing" },
   { label: "How it work", href: "#how-it-works" },
   { label: "Contact", href: "#contact" },
-];
-
-const SOCIAL = [
-  { label: "Facebook", href: "#" },
-  { label: "Instagram", href: "#" },
-  { label: "LinkedIn", href: "#" },
 ];
 
 const CONTACT = [
@@ -37,7 +31,7 @@ export default function Footer() {
   return (
     <footer className="mt-12 border-t border-foreground/10 bg-foreground/[0.02]">
       <div className="mx-auto w-full max-w-[1230px] px-5 pb-10 pt-14 sm:px-6 sm:pt-16">
-        <Reveal className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.7fr_1fr_1fr_1.2fr]">
+        <Reveal className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.7fr_1fr_1.4fr]">
         {/* Brand */}
         <div className="max-w-xs">
           <Image
@@ -56,20 +50,6 @@ export default function Footer() {
           <h3 className="text-sm font-semibold text-foreground">Menu</h3>
           <ul className="mt-5 space-y-3">
             {MENU.map((l) => (
-              <li key={l.label}>
-                <a href={l.href} className={linkClass}>
-                  {l.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        {/* Follow us */}
-        <div>
-          <h3 className="text-sm font-semibold text-foreground">Follow us:</h3>
-          <ul className="mt-5 space-y-3">
-            {SOCIAL.map((l) => (
               <li key={l.label}>
                 <a href={l.href} className={linkClass}>
                   {l.label}

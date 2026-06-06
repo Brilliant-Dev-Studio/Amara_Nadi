@@ -66,7 +66,7 @@ export default function Services() {
 
   return (
     <section
-      id="services"
+      id="products"
       className="bg-brand-blue/5 py-16 sm:py-24"
     >
       <div className="mx-auto w-full max-w-[1230px] px-5 sm:px-6">
@@ -74,7 +74,7 @@ export default function Services() {
       <Reveal>
         <div className="flex items-center justify-center gap-2 text-sm font-medium text-foreground/70">
           <span className="h-2 w-2 rounded-full bg-brand-red" />
-          Services
+          Products
         </div>
         <h2 className="mx-auto mt-5 max-w-3xl text-center font-serif text-[30px] font-light leading-[1.12] tracking-[-0.005em] sm:text-[48px]">
           Reliable expertise to drive your greatest success

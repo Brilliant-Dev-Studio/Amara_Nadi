@@ -198,7 +198,7 @@ export default function Hero() {
               </span>
             </a>
             <a
-              href="#services"
+              href="#products"
               className="link-underline text-base font-medium text-brand-diamond-ice"
             >
               What we do
