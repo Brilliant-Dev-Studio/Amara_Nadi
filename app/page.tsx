@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import Benefits from "./components/Benefits";
 import ComingSoon from "./components/ComingSoon";
+import PoePoeGold from "./components/PoePoeGold";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Faq from "./components/Faq";
 import ContactSection from "./components/ContactSection";
@@ -34,6 +35,7 @@ export default function Home() {
       <div className="mx-auto w-full max-w-[1230px] px-5 pb-6 sm:px-6 sm:pb-8">
         <Testimonials />
         <Benefits />
+        <PoePoeGold />
         <ComingSoon />
         <Faq />
         <ContactSection />

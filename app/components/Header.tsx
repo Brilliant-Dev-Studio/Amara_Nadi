@@ -9,6 +9,7 @@ const LINKS = [
   { label: "Why Us", href: "#why" },
   { label: "Services", href: "#services" },
   { label: "Benefits", href: "#benefits" },
+  { label: "Our Group", href: "#poe-poe-gold" },
   { label: "Coming Soon", href: "#coming-soon" },
   { label: "FAQ", href: "#faq" },
 ];
