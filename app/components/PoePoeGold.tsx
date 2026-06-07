@@ -1,4 +1,5 @@
 import Reveal from "./Reveal";
+import GoldGallery from "./GoldGallery";
 
 const HIGHLIGHTS = [
   { stat: "Since 1997", label: "Nearly thirty years in gold" },
@@ -89,6 +90,14 @@ export default function PoePoeGold() {
           </Reveal>
         ))}
       </div>
+
+      {/* Workshop gallery */}
+      <Reveal delay={150} className="mt-16 sm:mt-20">
+        <p className="text-center text-xs font-semibold uppercase tracking-[0.18em] text-amber-600">
+          A few pieces from our workshop
+        </p>
+      </Reveal>
+      <GoldGallery />
     </section>
   );
 }

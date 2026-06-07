@@ -2,8 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image, { type StaticImageData } from "next/image";
-import evImg from "@/public/coming/ev.jpg";
-import solarImg from "@/public/foau3cba.jpg";
+import evImg from "@/public/evcharging.jpg";
+import solarImg from "@/public/solarFarm.jpg";
 
 const ITEMS: { title: string; desc: string; img: StaticImageData }[] = [
   {

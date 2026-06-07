@@ -111,6 +111,22 @@ export default function Benefits() {
     return () => io.disconnect();
   }, []);
 
+  const renderCard = (b: (typeof BENEFITS)[number], i: number) => (
+    <div
+      key={b.title}
+      className={`flex flex-col items-center text-center transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] motion-reduce:translate-y-0 motion-reduce:opacity-100 motion-reduce:transition-none ${
+        inView ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"
+      }`}
+      style={{ transitionDelay: `${i * 80}ms` }}
+    >
+      <GlossyIcon icon={b.icon} />
+      <h3 className="mt-6 text-lg font-semibold text-foreground">{b.title}</h3>
+      <p className="mt-3 max-w-[16rem] text-sm leading-relaxed text-foreground/55">
+        {b.desc}
+      </p>
+    </div>
+  );
+
   return (
     <section id="benefits" ref={ref} className="px-1 pb-16 pt-4 sm:pb-24 sm:pt-6">
       {/* Heading */}
@@ -122,25 +138,16 @@ export default function Benefits() {
         Benefits your customers will feel
       </h2>
 
-      {/* Grid */}
-      <div className="mx-auto mt-14 grid max-w-5xl gap-x-8 gap-y-14 sm:mt-16 sm:grid-cols-2 lg:grid-cols-4">
-        {BENEFITS.map((b, i) => (
-          <div
-            key={b.title}
-            className={`flex flex-col items-center text-center transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] motion-reduce:translate-y-0 motion-reduce:opacity-100 motion-reduce:transition-none ${
-              inView ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"
-            }`}
-            style={{ transitionDelay: `${i * 80}ms` }}
-          >
-            <GlossyIcon icon={b.icon} />
-            <h3 className="mt-6 text-lg font-semibold text-foreground">
-              {b.title}
-            </h3>
-            <p className="mt-3 max-w-[16rem] text-sm leading-relaxed text-foreground/55">
-              {b.desc}
-            </p>
-          </div>
-        ))}
+      {/* Pyramid: apex on top, three across the base */}
+      <div className="mx-auto mt-14 max-w-5xl sm:mt-16">
+        {/* Apex */}
+        <div className="flex justify-center">
+          <div className="w-full max-w-xs">{renderCard(BENEFITS[0], 0)}</div>
+        </div>
+        {/* Base */}
+        <div className="mt-14 grid grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-3">
+          {BENEFITS.slice(1).map((b, i) => renderCard(b, i + 1))}
+        </div>
       </div>
     </section>
   );
